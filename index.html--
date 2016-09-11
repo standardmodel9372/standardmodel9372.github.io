@@ -1,6 +1,14 @@
-<html>
+<!--
+When you see the code I wrote...
+https://www.youtube.com/watch?v=CXmp1hLK0tY&t=105
+-->
 
-<head>
+<html style="background-color: #b0c4de;">
+
+<head onload="if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+ window.location.replace("http://quantum.dalton.org/mobile.html");
+
+}">
   <link rel="shortcut icon" href="at.ico">
     <meta charset="utf-8">
     <title>Standard Model</title>
@@ -13,8 +21,12 @@
       <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
       <script src="../bower_components/respond/dest/respond.min.js"></script>
     <![endif]-->
+    <script type="text/javascript" src="http://code.onion.com/fartscroll.js"></script>
     <script>
-    
+//      fartscroll();
+      </script>
+    <script>
+
      var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-23019901-1']);
       _gaq.push(['_setDomainName', "bootswatch.com"]);
@@ -28,9 +40,18 @@
      })();
 
     </script>
+
+    <script type="text/javascript" src="js/konami.js">
+    </script>
+
+    <script>
+    var easter_egg = new Konami();
+    easter_egg.load("2048.html");
+    </script>
+
   </head>
 
-<body>
+<body style="background-color: #F0F0F0;">
 
 
   <!-- Navbar -->
@@ -69,94 +90,30 @@
             </li>
           </ul>
 
-<!-- Right navbar stuff -->
-<!--
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://builtwithbootstrap.com/" target="_blank">Built With Bootstrap</a></li>
-            <li><a href="https://wrapbootstrap.com/?ref=bsw" target="_blank">WrapBootstrap</a></li>
-          </ul>
-
-        -->
-
-         <ul class="nav navbar-nav navbar-right">
-            <li><a href="/zh/sponsors.html">中文</a></li>
+           <ul class="nav navbar-nav navbar-right">
+            <li><a href="/zh/">中文</a></li>
           </ul>
 
         </div>
       </div>
     </div>
 
+    <center>
+    <div class="row">
+        <div class="col-lg-12">
 
-    <div class="container">
-      <div class="row">
-          <div class="col-lg-12">
-            <div class="page-header">
-              <h1 id="tables">Sponsors</h1>
-            </div>
-
-            <div class="row">
-          <div class="col-lg-12">
-            <div class="bs-component">
-
-            <p class="lead">
-              Proudly supported by:
-            </p>
-
-            <div class="row">
-              <div class="col-lg-4"></div>
-              <center>
-               <div class="col-lg-4">
-                  <a href="http://dalton.org"><img src="img/daltonschool.png"></a>
-               </div>
-              </center>
-            </div>
-            <div class="row">
-              <center><div class="col-lg-6">
-                <a href="http://www.knottsco.com/"> <img src="img/knotts-brand.png"> </a>
-              </div>
-            </center>
+              <h1 style="font-size: 80px;">Team 9372</h1>
               
-              <center><div class="col-lg-6">
-                <a href="https://www.servocity.com/html/actoboticstm.html"><img src="img/Actobotics_Logo_-_page.jpg"></a>
-              </div>
-            </center>
-            </div>
-            <div class="row">
-              <center>
-                <div class="col-lg-6">
-                  <a href="http://tankchain.com"><img src="img/tankchain.png"></a>
-                </div>
-              </center>
-              <center>
-                <div class="col-lg-6">
-                  <a href="https://www.servocity.com/"><img src="img/New_ServoCity_Logo_sm.jpg"></a>
-                </div>
-              </center>
-            </div>
-            <div class="row">
-              <div class="col-lg-4"></div>
-              <center>
-               <div class="col-lg-4">
-                <a href="https://www.sweetmarias.com/">
-                  <img src="img/sweetmarias.png"> 
-                </a>
-               </div>
-              </center>
+              <img src="img/standard_logo.png" height="230" width="600">
+              <p style="font-size: 30px;">Standard Model is an FTC Robotics team from the Dalton School in New York City.</p>
+              <p><a class="btn btn-primary btn-lg" href="about.html">Learn more</a></p>
             </div>
 
-            
-
-              
-
-            </div>
-          </div>
-          </div>
         </div>
 
     </div>
 
-  </br>
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.js"></script>
 </body>
 

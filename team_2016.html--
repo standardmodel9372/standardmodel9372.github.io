@@ -3,11 +3,11 @@
 <head>
   <link rel="shortcut icon" href="at.ico">
     <meta charset="utf-8">
-    <title>Standard Model</title>
+    <title>Atomic Theory</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap.css" media="screen">
-    <link rel="stylesheet" href="css/bootswatch.min.css">
-    <link href="css/fontawesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="/css/bootswatch.min.css">
+    <link href="/css/fontawesome.min.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
@@ -48,7 +48,7 @@
   <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a href="/" class="navbar-brand">Standard Model</a>
+          <a href="/" class="navbar-brand">Atomic Theory</a>
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -116,40 +116,62 @@
                   </tr>
                 </thead>
                 <tbody>
+                  </tr>
+                  <tr>
+                    <td>Nathaniel</td>
+                    <td><image src="img/nathaniel.png" height=100 width=100> </img></td>
+                    <td>Senior (Captain)</td>
+                    <td>Will Findley</td>
+                  </tr>
                  <tr>
                     <td>Davis</td>
                     <td><image src="img/davis.png" height=100 width=100> </img></td>
-                    <td>Senior</td>
+                    <td>Junior</td>
                     <td>Coding</td>
                   </tr>
-
                   <tr>
-                    <td>Aryav</td>
-                    <td><image src="https://pbs.twimg.com/profile_images/738744285101580288/OUoCVEXG.jpg" height=100 width=100> </img></td>
-                    <td>Senior</td>
+                    <td>Alex</td>
+                    <td><image src="img/alex.png" height=100 width=100> </img></td>
+                    <td>Junior</td>
+                    <td>Coffee</td>
+                  </tr>
+                  <tr>
+                    <td>Leo</td>
+                    <td><image src="img/leo.png" height=100 width=100> </img></td>
+                    <td>Junior</td>
                     <td>Building</td>
                   </tr>
-
                   <tr>
-                    <td>Julian</td>
-                    <td><image src="https://pbs.twimg.com/profile_images/738744285101580288/OUoCVEXG.jpg" height=100 width=100> </img></td>
-                    <td>Senior</td>
-                    <td>Luke Sauer</td>
+                    <td>Maisie</td>
+                    <td><image src="img/maisie.png" height=100 width=100> </img></td>
+                    <td>Junior</td>
+                    <td>Pigs, Dental Hygiene</td>
                   </tr>
-
                   <tr>
-                    <td>Yung Gallant</td>
-                    <td><image src="https://pbs.twimg.com/profile_images/738744285101580288/OUoCVEXG.jpg" height=100 width=100> </img></td>
-                    <td>Senior</td>
-                    <td>Coding</td>
+                    <td>Dylan</td>
+                    <td><image src="img/dylan.png" height=100 width=100> </img></td>
+                    <td>Junior</td>
+                    <td>Building</td>
                   </tr>
-
                   <tr>
-                    <td>Caitlyn Yung</td>
-                    <td><image src="https://pbs.twimg.com/profile_images/738744285101580288/OUoCVEXG.jpg" height=100 width=100> </img></td>
-                    <td>Senior</td>
-                    <td>Coding</td>
+                    <td>Davey</td>
+                    <td><image src="img/davey.png" height=100 width=100> </img></td>
+                    <td>Sophomore</td>
+                    <td>Ceramics</td>
                   </tr>
+                  <tr>
+                    <td>Michela</td>
+                    <td><image src="img/michela.png" height=100 width=100> </img></td>
+                    <td>Junior</td>
+                    <td>Fishing</td>
+                  </tr>
+                  <tr>
+                    <td>Robert</td>
+                    <td><image src="img/robert.png" height=100 width=100> </img></td>
+                    <td>Junior</td>
+                    <td>Building</td>
+                  </tr>
+                  
 
                   <tr>
                     <td>Michael Sloan "MSW" Warren</td>
@@ -162,9 +184,9 @@
                     <td>CS Teacher</td>
                   </tr>
                   <tr>
-                    <td>Josh "JJ Ginzberg" Ginzberg</td>
+                    <td>Rob "Rob-bob-bot" Quatrone</td>
                     <td><image id="rob" src="img/bulbasaur.png" height=100 width=100 onclick="if(evG!=2) evG++; document.getElementById('rob').src=evGs[evG%3];"> </img></td>
-                    <td>CS Teacher</td>
+                    <td>Science Teacher</td>
                   </tr>
                   <tr> 
                     <td>Gordon "Gordie" Campbell</td>

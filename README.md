@@ -1,1 +1,1 @@
-# atomic-website
+# standard-website
